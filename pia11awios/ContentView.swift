@@ -8,12 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var model = AWConnect()
+    
+    @State var someone = Person()
+    
     var body: some View {
         VStack {
+            
+            Text(model.messageText)
+            
+            Button(action: {
+                model.session.sendMessage(["message": "från telefon"], replyHandler: nil) { error in
+                    
+                }
+            }) {
+                Text("Skicka")
+            }
+            
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Text(someone.firstname)
         }
         .padding()
     }

@@ -11,7 +11,43 @@
 		AB87DAD829389A7E00FA64A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DAD729389A7E00FA64A7 /* ContentView.swift */; };
 		AB87DADA29389A8000FA64A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB87DAD929389A8000FA64A7 /* Assets.xcassets */; };
 		AB87DADD29389A8000FA64A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB87DADC29389A8000FA64A7 /* Preview Assets.xcassets */; };
+		AB87DAEA29389C8B00FA64A7 /* pia11awApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DAE929389C8B00FA64A7 /* pia11awApp.swift */; };
+		AB87DAEC29389C8B00FA64A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DAEB29389C8B00FA64A7 /* ContentView.swift */; };
+		AB87DAEE29389C8E00FA64A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB87DAED29389C8E00FA64A7 /* Assets.xcassets */; };
+		AB87DAF129389C8E00FA64A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB87DAF029389C8E00FA64A7 /* Preview Assets.xcassets */; };
+		AB87DAF429389C8E00FA64A7 /* pia11aw Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB87DAE729389C8B00FA64A7 /* pia11aw Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB87DAFA29389FAF00FA64A7 /* ReadmoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DAF929389FAF00FA64A7 /* ReadmoreView.swift */; };
+		AB87DAFD2938AE8700FA64A7 /* ComplicationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DAFC2938AE8700FA64A7 /* ComplicationViews.swift */; };
+		AB87DAFF2938B40500FA64A7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DAFE2938B40500FA64A7 /* ComplicationController.swift */; };
+		AB87DB012938B8DE00FA64A7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DB002938B8DE00FA64A7 /* Person.swift */; };
+		AB87DB032938B9AF00FA64A7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DB002938B8DE00FA64A7 /* Person.swift */; };
+		AB87DB052938CAC800FA64A7 /* AWConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DB042938CAC800FA64A7 /* AWConnect.swift */; };
+		AB87DB082938CDDE00FA64A7 /* AWConnectWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87DB072938CDDE00FA64A7 /* AWConnectWatch.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB87DAF229389C8E00FA64A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB87DACA29389A7E00FA64A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB87DAE629389C8B00FA64A7;
+			remoteInfo = "pia11aw Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB87DAF829389C8E00FA64A7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AB87DAF429389C8E00FA64A7 /* pia11aw Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB87DAD229389A7E00FA64A7 /* pia11awios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia11awios.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +55,29 @@
 		AB87DAD729389A7E00FA64A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB87DAD929389A8000FA64A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB87DADC29389A8000FA64A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB87DAE729389C8B00FA64A7 /* pia11aw Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pia11aw Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB87DAE929389C8B00FA64A7 /* pia11awApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia11awApp.swift; sourceTree = "<group>"; };
+		AB87DAEB29389C8B00FA64A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB87DAED29389C8E00FA64A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB87DAF029389C8E00FA64A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB87DAF929389FAF00FA64A7 /* ReadmoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmoreView.swift; sourceTree = "<group>"; };
+		AB87DAFB2938A7DD00FA64A7 /* pia11aw-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "pia11aw-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AB87DAFC2938AE8700FA64A7 /* ComplicationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationViews.swift; sourceTree = "<group>"; };
+		AB87DAFE2938B40500FA64A7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		AB87DB002938B8DE00FA64A7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AB87DB042938CAC800FA64A7 /* AWConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWConnect.swift; sourceTree = "<group>"; };
+		AB87DB072938CDDE00FA64A7 /* AWConnectWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWConnectWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB87DACF29389A7E00FA64A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB87DAE429389C8B00FA64A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AB87DAD429389A7E00FA64A7 /* pia11awios */,
+				AB87DAE829389C8B00FA64A7 /* pia11aw Watch App */,
 				AB87DAD329389A7E00FA64A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				AB87DAD229389A7E00FA64A7 /* pia11awios.app */,
+				AB87DAE729389C8B00FA64A7 /* pia11aw Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +108,12 @@
 		AB87DAD429389A7E00FA64A7 /* pia11awios */ = {
 			isa = PBXGroup;
 			children = (
+				AB87DB042938CAC800FA64A7 /* AWConnect.swift */,
 				AB87DAD529389A7E00FA64A7 /* pia11awiosApp.swift */,
 				AB87DAD729389A7E00FA64A7 /* ContentView.swift */,
 				AB87DAD929389A8000FA64A7 /* Assets.xcassets */,
 				AB87DADB29389A8000FA64A7 /* Preview Content */,
+				AB87DB002938B8DE00FA64A7 /* Person.swift */,
 			);
 			path = pia11awios;
 			sourceTree = "<group>";
@@ -63,6 +122,30 @@
 			isa = PBXGroup;
 			children = (
 				AB87DADC29389A8000FA64A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB87DAE829389C8B00FA64A7 /* pia11aw Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AB87DAFB2938A7DD00FA64A7 /* pia11aw-Watch-App-Info.plist */,
+				AB87DAE929389C8B00FA64A7 /* pia11awApp.swift */,
+				AB87DAEB29389C8B00FA64A7 /* ContentView.swift */,
+				AB87DAF929389FAF00FA64A7 /* ReadmoreView.swift */,
+				AB87DAFC2938AE8700FA64A7 /* ComplicationViews.swift */,
+				AB87DAFE2938B40500FA64A7 /* ComplicationController.swift */,
+				AB87DAED29389C8E00FA64A7 /* Assets.xcassets */,
+				AB87DAEF29389C8E00FA64A7 /* Preview Content */,
+				AB87DB072938CDDE00FA64A7 /* AWConnectWatch.swift */,
+			);
+			path = "pia11aw Watch App";
+			sourceTree = "<group>";
+		};
+		AB87DAEF29389C8E00FA64A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB87DAF029389C8E00FA64A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -77,14 +160,33 @@
 				AB87DACE29389A7E00FA64A7 /* Sources */,
 				AB87DACF29389A7E00FA64A7 /* Frameworks */,
 				AB87DAD029389A7E00FA64A7 /* Resources */,
+				AB87DAF829389C8E00FA64A7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB87DAF329389C8E00FA64A7 /* PBXTargetDependency */,
+			);
+			name = pia11awios;
+			productName = pia11awios;
+			productReference = AB87DAD229389A7E00FA64A7 /* pia11awios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB87DAE629389C8B00FA64A7 /* pia11aw Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB87DAF529389C8E00FA64A7 /* Build configuration list for PBXNativeTarget "pia11aw Watch App" */;
+			buildPhases = (
+				AB87DAE329389C8B00FA64A7 /* Sources */,
+				AB87DAE429389C8B00FA64A7 /* Frameworks */,
+				AB87DAE529389C8B00FA64A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = pia11awios;
-			productName = pia11awios;
-			productReference = AB87DAD229389A7E00FA64A7 /* pia11awios.app */;
+			name = "pia11aw Watch App";
+			productName = "pia11aw Watch App";
+			productReference = AB87DAE729389C8B00FA64A7 /* pia11aw Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +200,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					AB87DAD129389A7E00FA64A7 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					AB87DAE629389C8B00FA64A7 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -116,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				AB87DAD129389A7E00FA64A7 /* pia11awios */,
+				AB87DAE629389C8B00FA64A7 /* pia11aw Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +236,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB87DAE529389C8B00FA64A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB87DAF129389C8E00FA64A7 /* Preview Assets.xcassets in Resources */,
+				AB87DAEE29389C8E00FA64A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +252,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB87DB052938CAC800FA64A7 /* AWConnect.swift in Sources */,
+				AB87DB012938B8DE00FA64A7 /* Person.swift in Sources */,
 				AB87DAD829389A7E00FA64A7 /* ContentView.swift in Sources */,
 				AB87DAD629389A7E00FA64A7 /* pia11awiosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB87DAE329389C8B00FA64A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB87DB082938CDDE00FA64A7 /* AWConnectWatch.swift in Sources */,
+				AB87DB032938B9AF00FA64A7 /* Person.swift in Sources */,
+				AB87DAFA29389FAF00FA64A7 /* ReadmoreView.swift in Sources */,
+				AB87DAEC29389C8B00FA64A7 /* ContentView.swift in Sources */,
+				AB87DAFF2938B40500FA64A7 /* ComplicationController.swift in Sources */,
+				AB87DAFD2938AE8700FA64A7 /* ComplicationViews.swift in Sources */,
+				AB87DAEA29389C8B00FA64A7 /* pia11awApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB87DAF329389C8E00FA64A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB87DAE629389C8B00FA64A7 /* pia11aw Watch App */;
+			targetProxy = AB87DAF229389C8E00FA64A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AB87DADE29389A8000FA64A7 /* Debug */ = {
@@ -262,6 +401,7 @@
 		AB87DAE129389A8000FA64A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +431,7 @@
 		AB87DAE229389A8000FA64A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +458,68 @@
 			};
 			name = Release;
 		};
+		AB87DAF629389C8E00FA64A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia11aw Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pia11aw-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = pia11aw;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.pia11awios;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.pia11awios.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		AB87DAF729389C8E00FA64A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia11aw Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pia11aw-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = pia11aw;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.pia11awios;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.pia11awios.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +537,15 @@
 			buildConfigurations = (
 				AB87DAE129389A8000FA64A7 /* Debug */,
 				AB87DAE229389A8000FA64A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB87DAF529389C8E00FA64A7 /* Build configuration list for PBXNativeTarget "pia11aw Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB87DAF629389C8E00FA64A7 /* Debug */,
+				AB87DAF729389C8E00FA64A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
